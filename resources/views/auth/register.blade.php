@@ -46,7 +46,7 @@
                             <label for="city" class="col-md-4 col-form-label text-md-end">{{ __('city') }}</label>
 
                             <div class="col-md-6">
-                                <input id="city" type="text" class="form-control @error('city') is-invalid @enderror" name="city"  >
+                                <input id="city" type="text" class="form-control @error('city') is-invalid @enderror" name="city"  autocomplete="new-city">
 
                                 @error('city')
                                     <span class="invalid-feedback" role="alert">
